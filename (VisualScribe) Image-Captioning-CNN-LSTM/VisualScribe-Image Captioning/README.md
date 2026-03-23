@@ -2,7 +2,7 @@
  
 A multimodal deep learning system that generates natural language captions for images by combining a **ResNet-50 CNN encoder** for visual feature extraction with an **LSTM decoder** for sequential text generation.
  
-> **Portfolio highlight:** Covers computer vision, NLP, model training pipelines, and quantitative evaluation - all in a single reproducible project.
+> **Portfolio highlight:** Covers computer vision, NLP, model training pipelines, RAG, and quantitative evaluation - all in a single reproducible project.
  
 ---
  
@@ -195,3 +195,4 @@ BLEU scores and final loss values are persisted to `metrics.json` for reproducib
  
 ## Author
  MOSTAFA ABDELHAMED | Junior AI & DS Researcher | NVIDIA Gen AI Certified
+ [LinkedIn](www.linkedin.com/in/mostafa-abdelhamed-88a447286)
