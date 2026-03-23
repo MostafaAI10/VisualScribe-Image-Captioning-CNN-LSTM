@@ -18,7 +18,7 @@ A multimodal deep learning system that generates natural language captions for i
 - [Inference](#inference)
 - [Results](#results)
 - [Next Steps](#next-steps)
-- [License](#license)
+- [Author](#author)
  
 ---
  
@@ -61,7 +61,6 @@ Compatible datasets include **Flickr8k**, **Flickr30k**, and **MS-COCO**.
 ```
 image-captioning-cnn-lstm/
 ├─ README.md
-├─ LICENSE
 ├─ requirements.txt
 ├─ data/
 │  ├─ captions.csv        # CSV: image_path, caption, split(train/val/test)
