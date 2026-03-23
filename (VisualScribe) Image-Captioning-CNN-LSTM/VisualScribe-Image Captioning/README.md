@@ -2,7 +2,7 @@
  
 A multimodal deep learning system that generates natural language captions for images by combining a **ResNet-50 CNN encoder** for visual feature extraction with an **LSTM decoder** for sequential text generation.
  
-> **Portfolio highlight:** Covers computer vision, NLP, model training pipelines, and quantitative evaluation — all in a single reproducible project.
+> **Portfolio highlight:** Covers computer vision, NLP, model training pipelines, and quantitative evaluation - all in a single reproducible project.
  
 ---
  
@@ -25,10 +25,10 @@ A multimodal deep learning system that generates natural language captions for i
  
 This project bridges computer vision and natural language processing using a classic encoder–decoder architecture:
  
-1. **Encoder** — A pretrained ResNet-50 (frozen backbone) extracts a fixed-length feature vector from each input image.
-2. **Decoder** — An LSTM network with learned embeddings and dropout generates a caption token-by-token, conditioned on the image features.
-3. **Training** — Teacher forcing is used during training with cross-entropy loss and the Adam optimizer.
-4. **Evaluation** — Caption quality is measured with BLEU-1 through BLEU-4 scores on a held-out validation set.
+1. **Encoder** : A pretrained ResNet-50 (frozen backbone) extracts a fixed-length feature vector from each input image.
+2. **Decoder** : An LSTM network with learned embeddings and dropout generates a caption token-by-token, conditioned on the image features.
+3. **Training** : Teacher forcing is used during training with cross-entropy loss and the Adam optimizer.
+4. **Evaluation** : Caption quality is measured with BLEU-1 through BLEU-4 scores on a held-out validation set.
  
 Compatible datasets include **Flickr8k**, **Flickr30k**, and **MS-COCO**.
  
@@ -182,8 +182,8 @@ Generated caption: a blue square with the word example on it
  
 Training and evaluation visualizations are saved automatically to `outputs/` after each run.
  
-- **`training_curves.png`** — Training and validation loss over epochs
-- **`bleu_scores.png`** — BLEU-4 score progression across epochs
+- **`training_curves.png`** : Training and validation loss over epochs
+- **`bleu_scores.png`** : BLEU-4 score progression across epochs
  
 BLEU scores and final loss values are persisted to `metrics.json` for reproducibility.
  
@@ -199,6 +199,5 @@ BLEU scores and final loss values are persisted to `metrics.json` for reproducib
  
 ---
  
-## License
- 
-This project is licensed under the [MIT License](LICENSE).
+## Author
+ MOSTAFA ABDELHAMED
