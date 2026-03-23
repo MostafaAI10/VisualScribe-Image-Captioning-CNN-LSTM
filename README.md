@@ -197,4 +197,4 @@ BLEU scores and final loss values are persisted to `metrics.json` for reproducib
  
 ## Author
  MOSTAFA ABDELHAMED | Junior AI & DS Researcher | NVIDIA Gen AI Certified
- [LinkedIn](www.linkedin.com/in/mostafa-abdelhamed-88a447286)
+ [LinkedIn](https://www.linkedin.com/in/mostafa-abdelhamed-88a447286)
