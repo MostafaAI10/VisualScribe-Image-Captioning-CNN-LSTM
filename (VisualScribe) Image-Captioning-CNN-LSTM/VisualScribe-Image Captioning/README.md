@@ -31,7 +31,7 @@ This project bridges computer vision and natural language processing using a cla
 1. **Encoder** : A pretrained ResNet-50 (frozen backbone) extracts a fixed-length feature vector from each input image.
 2. **Decoder** : An LSTM network with learned embeddings and dropout generates a caption token-by-token, conditioned on the image features.
 3. **Training** : Teacher forcing is used during training with cross-entropy loss and the Adam optimizer.
-4. **Evaluation** : Caption quality is measured with BLEU-1 through BLEU-4 scores on a held-out validation set.
+4. **Evaluation** : Caption quality is measured with BLEU-1 through BLEU-4 scores on a held out validation set.
  
 Compatible datasets include **Flickr8k**, **Flickr30k**, and **MS-COCO**.
  
