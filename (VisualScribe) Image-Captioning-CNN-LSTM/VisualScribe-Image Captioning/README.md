@@ -5,6 +5,8 @@ A multimodal deep learning system that generates natural language captions for i
 > **Portfolio highlight:** Covers computer vision, NLP, model training pipelines, RAG, and quantitative evaluation - all in a single reproducible project.
  
 ---
+
+
  
 ## Table of Contents
  
