@@ -6,7 +6,7 @@ A multimodal deep learning system that generates natural language captions for i
  
 ---
 
-
+![image alt](https://github.com/MostafaAI10/VisualScribe-Image-Captioning-CNN-LSTM/blob/8cc798c134312a4669c8e93f8ed05ad4a7b67c6e/visualscribe_banner.png)
  
 ## Table of Contents
  
